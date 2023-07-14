@@ -1,0 +1,8 @@
+.env
+.chromadb/
+archive/
+pubhub.devnetcloud.com/
+.python-version
+__pycache__
+docker
+ingest_chromdb.py

@@ -1,0 +1,17 @@
+openai
+fastapi
+black
+isort
+websockets
+pydantic
+langchain==0.0.194
+uvicorn
+jinja2
+unstructured
+libmagic
+beautifulsoup4
+tiktoken
+python-dotenv
+
+# NEEDED FOR CHROMADB
+chromadb==0.3.25

@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  pyats-chatbot:
+    env_file:
+      - .env
+    image: barweiss45/pyats-chatbot
+    container_name: pyats-chatbot
+    ports:
+      - "9000:9000"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    volumes:
+      - .chromadb:/app/.chromadb:rw
